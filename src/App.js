@@ -31,7 +31,7 @@ class App extends Component {
     console.log(response);
     if (city && country) {
       this.setState({
-        temperature: response.main.temp,
+        temperature: ((response.main.temp - 273.15) * (9/5) + 32).toFixed(2),
         city: response.name,
         country: response.sys.country,
         description: response.weather[0].description,
@@ -52,11 +52,11 @@ class App extends Component {
       <div className="App">
         <Header header="Pick-up Pal" />
         <div className="row">
-          <div className="col-sm chat-container">
-            <Chat />
-          </div>
+
           <div className="col-md form-container">
             <Form weather={this.getWeather} />
+          </div>
+          <div className="col-md weather-container">
             <Weather
               temperature={this.state.temperature}
               city={this.state.city}
@@ -65,6 +65,11 @@ class App extends Component {
               description={this.state.description}
               error={this.state.error}
             />
+          </div>
+          <div className="row">
+            <div className="col-sm chat-container">
+              <Chat />
+            </div>
           </div>
         </div>
       </div>
