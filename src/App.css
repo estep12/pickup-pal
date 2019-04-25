@@ -26,38 +26,44 @@
 
 
 .form-container {
-  margin-right: 20px;
+  margin-left: 10px;
+  width: 43%;
 }
 
 .weather-container {
-  line-height: 10px;
+  line-height: 15px;
   margin-top: 10px;
+  width: 50%;
 }
 
 .input-box {
   border-radius: 10px;
   margin: 5px;
+  width: 125px;
 }
 
 .btn-secondary {
   border-radius: 10px;
+  width: 100px;
 }
 
 .weather {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-left: 8px;
-  font-size: 22px;
+  font-size: 18px;
 }
 
 .weather-value {
   font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
   padding-top: 5px;
   margin-left: 8px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .chat-container {
-  margin-left: 75px;
+  /* margin-left: 75px; */
+  position: fixed;
+
 }
 
 .chat-input {
@@ -67,6 +73,10 @@
 
 .row {
   width: 100%;
+}
+
+#chat-row {
+  margin-top: 10px;
 }
 
 /* @keyframes App-logo-spin {
