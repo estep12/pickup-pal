@@ -6,7 +6,7 @@ const URL = 'ws://localhost:3030'
 
 class Chat extends Component {
   state = {
-    name: 'Bob',
+    name: '',
     messages: [],
   }
 
@@ -42,7 +42,7 @@ class Chat extends Component {
   render() {
     return (
       <div>
-        <label htmlFor="name">
+        <label htmlFor="name" id="chat-name">
           Name:&nbsp;
           <input
             className="chat-input"

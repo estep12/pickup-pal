@@ -23,6 +23,11 @@
   color: #61dafb;
 } */
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 
 
 .form-container {
@@ -69,6 +74,24 @@
 .chat-input {
   border-radius: 10px;
   margin: 5px;
+}
+
+#chat-name {
+  position: fixed;
+  bottom: 80px;
+
+}
+
+#message-input {
+  position: fixed;
+  bottom: 50px;
+}
+
+#submit {
+  position: fixed;
+  bottom: 60px;
+  margin-left: 48%;
+  border: black;
 }
 
 .row {

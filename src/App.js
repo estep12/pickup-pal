@@ -5,6 +5,7 @@ import Chat from './components/Chat';
 import Form from './components/Form';
 import Weather from './components/Weather';
 import Header from './components/Header/Header'
+import Footer from './components/Footer/Footer'
 
 const api_key = "38f4a3ab1d3244e6f85fa3fdf150cdb7";
 
@@ -71,6 +72,7 @@ class App extends Component {
             <Chat />
           </div>
         </div>
+        <Footer />
 
       </div>
     );
