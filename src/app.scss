@@ -1,0 +1,80 @@
+$main-fonts: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$secondary-fonts: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+
+html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  .form-container {
+    margin-left: 10px;
+    width: 43%;
+  }
+  
+  .weather-container {
+    line-height: 15px;
+    margin-top: 10px;
+    width: 50%;
+  }
+  
+  .input-box {
+    border-radius: 10px;
+    margin: 5px;
+    width: 125px;
+  }
+  
+  .btn-secondary {
+    border-radius: 10px;
+    width: 100px;
+  }
+  
+  .weather {
+    font-family: $main-fonts;
+    margin-left: 8px;
+    font-size: 18px;
+  }
+  
+  .weather-value {
+    font-family: $secondary-fonts;
+    padding-top: 5px;
+    margin-left: 8px;
+    font-size: 15px;
+  }
+  
+  .chat-container {
+    /* margin-left: 75px; */
+    position: fixed;
+  
+  }
+  
+  .chat-input {
+    border-radius: 10px;
+    margin: 5px;
+  }
+  
+  #chat-name {
+    position: fixed;
+    bottom: 80px;
+  
+  }
+  
+  #message-input {
+    position: fixed;
+    bottom: 50px;
+  }
+  
+  #submit {
+    position: fixed;
+    bottom: 60px;
+    margin-left: 48%;
+    border: black;
+  }
+  
+  .row {
+    width: 100%;
+  }
+  
+  #chat-row {
+    margin-top: 10px;
+  }
+  

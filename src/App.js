@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 // import logo from './logo.svg';
-import './App.css';
+import './app.scss';
 import Chat from './components/Chat';
 import Form from './components/Form';
 import Weather from './components/Weather';
