@@ -51,7 +51,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header header="Pick-up Pal" />
+        <Header 
+          header="Pick-up Pal" 
+          subtitle="For All Your Pick-up Needs"
+          
+        />
         <div className="row" id="weather-row" >
           <div className="col-md form-container">
             <Form weather={this.getWeather} />
